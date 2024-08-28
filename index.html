@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Rhandzu Poems</title>
   </head>
   <body>
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form action="">
+        <form action="" id="poem-gen">
           <input
             type="text"
             placeholder="Enter the topic of the poem"
@@ -24,10 +25,7 @@
           />
           <input type="submit" name="" id="" class="button" />
         </form>
-        <div class="poem">
-          Poem
-          <br />
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
 
       <footer>
