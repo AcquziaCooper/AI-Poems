@@ -15,19 +15,22 @@
       </header>
 
       <main>
-        <form action="" id="poem-gen">
-          <input
-            type="text"
-            placeholder="Enter the topic of the poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="prompts"
-            id="user-prompts"
-          />
-          <input type="submit" name="" id="" class="button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form action="" id="poem-gen">
+            <input
+              type="text"
+              placeholder="Enter the topic of the poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="prompts"
+              id="user-prompts"
+            />
+            <input type="submit" name="" id="" class="button" />
+          </form>
+          <div class="hint">i.e: Love, City, Life</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
